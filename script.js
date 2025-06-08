@@ -1,6 +1,5 @@
 // Load the JSON libraries
 const library1 = [
-  "AAAAAAAAAAAAAAAAAAAAAH!",
   "Car Seat",
   "Human",
   "American",
@@ -31,6 +30,8 @@ const library1 = [
   "Oh My God",
   "The",
   "Midwest",
+  "Slick",
+  "Random",
   // Add more phrases here...
 ];
 
