@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', 'Avenir', 'Arial', sans-serif;
+}
+
 #image-background {
     background-image: url(images/americanfootball-background.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#main {
+    width: 335px;
+    height: 355px;
+    background-color:rgba(89, 109, 40, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 11px 11px 6px rgba(35, 38, 30, 0.25);
+}
+
+h1 {
+    padding: 20px 20px;
+    text-align: center;
+    color: #FDFFF7;
+    font-weight: normal;
+}
+
+#generated-name {
+  margin: 20px auto;
+  display: block;
+  width: 255px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #95C75B;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: #FDFFF7;
+}
+
+#GENERATE-button {
+  margin: 50px auto;
+  display: block;
+  width: 180px;
+  height: 70px;
+  border-radius: 25px;
+  background-color: #31451A;
+  color: #FDFFF7;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  cursor: pointer;
+}
+
+#dedication {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FDFFF7;
 }
